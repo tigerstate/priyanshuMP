@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    font-weight: 400;
+    
+
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+.navwar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+
+   .Myresume {
+      font-size: 1.3rem;
+      color: #f0f0f0;
+      text-decoration: none;
+      background: #14b603;
+      border-radius: 0.2rem;
+      width: 6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.6rem;
+      position: relative;
+      margin: 2rem;
+      font-weight: 600;
+  
+}
+.myres :hover{
+   transition: all 0.4s ease-out;
+   background-color: transparent;
+   border: 1px solid rgb(84, 83, 83);
+   
+}
+
+.fa-brands, .fab {
+   font-weight: 400;
+   color: white;
+   font-size: 1.9rem;
+   margin: 4px;
+   
+
+}
+
+.media-icon {
+   margin-left: 4rem;
+   margin-top: 1rem;
+}
+.media-icon :hover{
+   color: rgb(111, 14, 215);
+   transition: 0.5s;
+
+}
+
+.scroll-up{
+   
+   font-size: 1.3rem;
+   background: #e6ff01;
+   border-radius: 2rem;
+   width: 3rem;
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   right: 0.4rem;
+   top: 42rem;
+   box-shadow: 1px 1px 33px rgba(0, 0, 0, 0.465);
+   z-index: 1;
+}
+
+
+.image-section {
+   background-image:url('css/1.png');
+   
+   background-position: center;
+   background-repeat:  no-repeat;
+   background-size: cover;
+   height: 50rem;
+   width: 100%;
+}
+
+.myintroduction{
+ 
+
+   display: flex;
+   top: 38%;
+   overflow: hidden;
+
+}
+.myimage img {
+   width: 26rem;
+   margin-left: 69.4%;
+   margin-top: -19.499999999999996rem;
+   border-radius: 0.6rem;
+}
+
+
+.intro{
+    margin-top: 16rem;
+}
+
+.quate{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500; 
+   margin-left: 4rem;
+   
+   
+ }
+ .myself-height{
+    margin-top: 1rem;
+ }
+ .myself{
+    color: white;
+    margin-left: 4rem;
+    font-size: 1rem; 
+ }
+ .mywork{
+    margin-left: 4rem;
+   margin-top: 2rem;
+   
+ }
+ .myjob{
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    background-color: #08e717;
+    color: rgb(255, 252, 252);
+    border: transparent;
+
+ }
+ .myjob a{
+   color: white;
+   text-decoration: none;
+ }
+ /* middle .image-section */
+
+ .midle-section{
+    /* background-image:url('css/About (2).png'); */
+   background-color: #160820;
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 55rem;
+    width: 100%;
+   
+    
+ }
+ 
+ .project-title a{
+   
+    font-size: 2.6rem;
+    color: rgb(255, 255, 255);
+    margin-left: 16rem;
+    position: relative;
+    top: 2rem;
+    text-decoration: none;
+ }
+ 
+.entire-box{
+   display: flex;
+ 
+
+}
+
+ .web-box{
+  
+   width: 38rem;
+   height: 23rem;
+   background: #220d31;
+   border-radius: 1rem;
+   display: flex;
+   justify-content: center;
+   margin-top: 3.9000000000000004rem;
+   margin-left: 6rem;
+   align-items: center;
+   box-shadow: 1px 1px 12px rgb(10, 9, 45);
+   object-fit: cover;
+ }
+ .web-box:hover{
+   transition:all 0.3s ease-out;
+    transform: scale(1.03);
+    
+   
+ }
+ .img-box img{
+  
+   width: 38rem;
+   height: 18.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.5rem;
+   margin-top: 1rem;
+   border-radius: 1rem;
+   
+ }
+ .Portfolio{
+   
+   font-size: 2rem;
+   color: #fff705;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: monospace;
+   
+   font-weight: 600;
+}
+.website-box{
+   display: flex;
+   flex-wrap: wrap;
+}
+.recent-project{
+ 
+   display: flex;
+   justify-content: center;
+   background-color:rgb(30 5 36);
+   color: white;
+   font-size: 2.6rem;
+   height: 4rem;
+    align-items: center;
+}
+.class-project{
+   font-weight: 600;
+}
+/* About section  */
+.About-me{
+   /* background-image:url('css/About.png'); */
+   background-color: #160820;
+   background-position: center;
+   background-repeat:  no-repeat;
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.about-section{
+   display: flex;
+   
+}
+ .myimage-box{
+  
+
+   width: 20rem;
+   height: 25rem;
+   /* position: relative; */
+   top: 2rem;
+   margin: 0.4rem;
+ }
+ #myimage-box{
+
+   color: #ffffffa6;
+   font-size: 1.1rem;
+   /* background: #261803bd; */
+   height: 30rem;
+   width: 44rem;
+   padding: 1rem;
+   margin-right: 6rem;
+   margin-top: 2rem;
+ }
+ .myimage-box img{
+ 
+   width: 18rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 4rem;
+   border: 4px solid black;
+   margin-top: 2rem;
+
+
+ }
+ .priyanshu{
+  
+   font-size: 1.5rem;
+   color: white;
+   justify-content: start;
+   align-items: center;
+   display: flex;
+   font-family: ui-monospace;
+   font-weight: 600;
+   padding: 1rem;
+   margin-left: -1rem;
+ }
+ #priyanshu a{
+   
+   color: #4161fe;
+   margin-top: 0.6rem;
+   font-size: 1rem;
+ }
+ #priyanshu  :hover{
+   color: white;
+   transition: 0.5s;
+ }

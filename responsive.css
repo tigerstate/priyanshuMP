@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    
+  font-family: montserrat;
+  overflow: hidden;
+  overflow-y: auto;
+  }
+  nav{
+   
+    background:#160820;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+  }
+  .myjob a{
+    font-weight: 600;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    color: rgba(5, 164, 10, 0.967);
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-left: 0.4rem;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 1200px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #031f03e8;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #23e600;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .myimage{
+      display: none;
+    }
+  }
+ 
+
+  @media (max-width: 800px){
+    .Myresume {
+      right: 8.5rem;
+    border: 1px solid #f7f7f74f;
+    background: transparent;
+     
+    }
+    .mywork :hover{
+    /* color: black;
+     */
+
+    
+     background-color: rgb(12, 93, 3);
+     color: white;
+    }
+    .recent-project{
+          background-color:black ;
+    }
+    label.logo {
+      font-size: 24px;
+      position: relative;
+      right: 3rem;
+  }
+  
+  .midle-section {
+    
+      height: 80rem;
+      width: 100%;
+      background-color: #1b0d37;
+  
+   }
+   .Portfolio {
+    font-size: 1.5rem;
+    color: #bcf627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.myjob {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: #08e717;
+  color: rgb(255, 252, 252);
+  border: transparent;
+}
+.myjob a{
+  font-weight: 600;
+}
+
+.web-box {
+  width: 19.5rem;
+  height: 16rem;
+  background: #2e175c;
+  border-radius: 0.5rem;
+  
+  margin-left: 0.7rem;
+  box-shadow: 1px 1px 12px rgb(0 0 0);
+  position: relative;
+  bottom: 1rem;
+}
+
+.img-box img {
+  width: 20rem;
+  height: 12.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+  #myimage-box{
+    color: #ffffffa6;
+    font-size: 0.9rem;
+    height: 28rem;
+    width: 19rem;
+    padding: 1rem;
+    margin-top: 25rem;
+    margin-left: 3rem;
+}
+
+.priyanshu {
+  font-size: 1.5rem;
+ 
+  padding: 1rem;
+  
+}
+.myimage-box {
+  width: 0rem;
+  height: 20rem;
+  top: -1rem;
+  position: relative;
+  margin: 0.3rem;
+  right: 2rem;
+}
+.About-me {
+  
+  height: 47rem;
+  background-color: #1b0d37;
+
+}
+.quate {
+  color: #ededed;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-left: 4rem;
+}
+  }
+
+  
